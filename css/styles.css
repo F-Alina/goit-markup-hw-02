@@ -14,7 +14,7 @@ ul {
   list-style-type: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -26,7 +26,7 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /*---------- HEADER STYLE--------- */
 
@@ -90,7 +90,7 @@ ul {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -102,6 +102,12 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  background-color: #4d5ae5;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
 }
 
 /* ------------ADVANTAGES----------- */
@@ -128,16 +134,19 @@ ul {
 /* ------------TEAM-SECTION----------- */
 
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
